@@ -12,6 +12,10 @@
   "author": {
     "name": "Kee-Yip Chan"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/keeyip/esdiff.git"
+  },
   "license": "MIT",
   "dependencies": {
     "estraverse": "~1.5.1",
