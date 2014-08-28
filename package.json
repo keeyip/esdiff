@@ -1,6 +1,6 @@
 {
   "name": "esdiff",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Compare two javascript files at the ast level",
   "main": "index.js",
   "scripts": {

@@ -46,7 +46,7 @@ function readIt(filename) {
 }
 function toAst(config) {
     try {
-        esprima.parse(config.code)
+        return esprima.parse(config.code)
     } catch (err) {
         console.error(config.filename + ': invalid code, make sure there are no syntax errors!')
         process.exit(1)
